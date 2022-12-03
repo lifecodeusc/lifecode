@@ -53,6 +53,9 @@ h3 {
     display:none
 }
 
+.md-typeset .headerlink {
+    display: none;
+}
 
 /*.md-header {*/
 /*    display:none;*/
