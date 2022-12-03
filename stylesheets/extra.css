@@ -53,6 +53,9 @@ h3 {
     display:none
 }
 
+.md-typeset .headerlink {
+    display: none;
+}
 
 /*.md-header {*/
 /*    display:none;*/
@@ -85,4 +88,45 @@ h3 {
   font-size: 0.7rem;
     width:100%;
     align:center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.md-header{display:none}
+
+.md-tabs {
+    display:none
 }
