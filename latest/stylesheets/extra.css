@@ -200,6 +200,12 @@
 /*    !*vertical-align: baseline;*!*/
 /*}*/
 
+h2 {
+    font-weight:bolder;
+    font-style: italic;
+    color: #455a63;
+}
+
 /*!*body {*!*/
 /*!*    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Archivo, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*!*/
 /*!*}*!*/
