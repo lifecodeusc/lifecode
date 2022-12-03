@@ -40,7 +40,7 @@ h3 {
 
 .md-header__button.md-logo :-webkit-any(img,svg) {
   fill: currentcolor;
-  display: block;
+  display: none;
   height: 3rem;
   width: auto;
 }
@@ -66,14 +66,11 @@ h3 {
 
 
 .md-header  {
-    display:none;
+    /*display:none;*/
     /*background: #ffffff;*/
     /*background: linear-gradient(45deg, rgb(95, 90, 90) 0%, rgb(227, 224, 224) 50%);*/
 }
 
-.md-tabs  {
-
-}
 
 .md-header__title--active .md-header__topic+.md-header__topic {
     display: none;
@@ -88,41 +85,4 @@ h3 {
   font-size: 0.7rem;
     width:100%;
     align:center;
-}
-.navbar {
-  overflow: hidden;
-  background: transparent;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: black;
-  font-weight:bolder;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-  font-weight:bolder;
-}
-
-/* Active/current link */
-.navbar a.active {
-  background-color: #33675670;
-  color: black;
 }
